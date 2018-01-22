@@ -1,0 +1,265 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    font-size:12px important;
+    background-image: linear-gradient(#F38A0B   ,#B2BD7C  );
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 70;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    margin: 15px; important;
+}
+.textarea{
+	padding:0 15px;
+}
+.form-control{
+	padding:0 12px;
+}
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 1.0;
+    border-radius: 8px;
+}
+#move{
+	width:55px !important;
+}
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+.head-nav{
+	color:black;
+	background-color:#white;
+	padding:20px;
+	font-size:130%;
+}
+.head-nav1{
+	color:black;
+	background-color:orange !important;
+	padding:20px;
+	font-size:130%;
+}
+
+.right-dash{
+ padding:20px;
+ background-color:white;
+ font-size:130%;
+}
+.user-icon{
+	
+	padding-left:15px;
+	margin-right:15px;
+	float :right;
+	
+}
+.dropdown-menu{
+	margin-top:15px!important;
+	 min-width: 85px!important;
+}
+.logout{
+	border-bottom:none!important;
+	   
+}
+.info {
+	margin-top:5px;
+	border:none;
+	padding:0px;
+	border-radius:0px;
+	height:125px;
+}
+.panel-heading{
+	border-radius:0px;
+}
+
+/*..................................navigatin css...............................*/
+.left-nav-div{
+	height:auto;
+	background-color:#2D2B30;
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.main-body{
+	height:85%;
+	background-color:#F0F0F0;
+}
+.main-nav{
+
+	margin-top:10px;
+}
+ul li{
+	color:white !important;
+	border-bottom:solid 1px silver!important
+}
+ul li :hover{
+	background:gray !important;
+	color:black!important;
+}
+.nav{
+	    width: -webkit-fill-available !important;
+}
+
+/*.........................................dropdown css............................*/
+
+
+.navbar-default {
+     background-color: #2D2B30;
+     border:none;
+}
+.container {
+    padding: 0px;
+}
+.head{
+    padding: 0px;
+     margin-bottom: 0px;
+    border-radius: 0px;
+    margin-top:5px;
+    padding:2px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.
+/*..............formbutton............*/
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 12px ;
+    
+}
+.form-panel{
+	    margin: 5px !important;    
+}
+/*................................................list_penal..........*/
+.table{
+    font-size: 12px !important;
+}	
+#menu-content1{
+	padding:0px;
+}
+#addzoosubmit{
+	    margin: 15px;
+}
+form{
+	font-size=12px;
+}
